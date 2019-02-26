@@ -20,9 +20,6 @@ public class Jugador {
 	}
 
 	public void movimiento(String m) {
-		
-		
-		
 		if (m.equalsIgnoreCase(Game.DERECHA)) {
 			setX(getX() + 1);
 		}
